@@ -26,6 +26,7 @@ This project was created as a school science exhibition project to make learning
 
 ## 👨‍🎓 Created For
 A school science exhibition.
+live : https://amrutakanchagar.github.io/Human_Body_Explo/
 
 ---
 
