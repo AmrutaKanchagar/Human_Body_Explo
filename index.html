@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Human Body Explorer | ಮಾನವ ದೇಹ ಅನ್ವೇಷಕ</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <header class="topbar">
+    <button class="mobile-menu" id="menuToggle" aria-label="Open systems menu">☰</button>
+    <a class="brand" href="#" id="homeBrand"><span class="brand-symbol">✚</span><span><strong>Human Body <i>Explorer</i></strong><small>ಮಾನವ ದೇಹ ಅನ್ವೇಷಕ · Interactive Science Lab</small></span></a>
+    <div class="top-actions"><span class="offline-tag"><span></span> OFFLINE READY</span><button id="languageToggle" class="language-toggle">ಕನ್ನಡ / English</button></div>
+  </header>
+  <div class="layout">
+    <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-title"><span data-en="EXPLORE BODY SYSTEMS" data-kn="ದೇಹದ ವ್ಯವಸ್ಥೆಗಳು">EXPLORE BODY SYSTEMS</span><button id="closeMenu" class="close-menu" aria-label="Close menu">×</button></div>
+      <button class="side-item active" data-system="overview"><span class="side-icon">🧍</span><span><b data-en="Whole Body" data-kn="ಸಂಪೂರ್ಣ ದೇಹ">Whole Body</b><small data-en="Anatomy overview" data-kn="ದೇಹರಚನೆಯ ಪರಿಚಯ">Anatomy overview</small></span><span class="chevron">›</span></button>
+      <div class="side-divider" data-en="BODY SYSTEMS" data-kn="ದೇಹದ ವ್ಯವಸ್ಥೆಗಳು">BODY SYSTEMS</div>
+      <button class="side-item" data-system="circulatory"><span class="side-icon red">♥</span><span><b data-en="Circulatory System" data-kn="ರಕ್ತಪರಿಚಲನಾ ವ್ಯವಸ್ಥೆ">Circulatory System</b><small data-en="Heart & blood vessels" data-kn="ಹೃದಯ ಮತ್ತು ರಕ್ತನಾಳಗಳು">Heart & blood vessels</small></span><span class="chevron">›</span></button>
+      <button class="side-item" data-system="respiratory"><span class="side-icon pink">🫁</span><span><b data-en="Respiratory System" data-kn="ಶ್ವಾಸಕೋಶ ವ್ಯವಸ್ಥೆ">Respiratory System</b><small data-en="Breathing & lungs" data-kn="ಉಸಿರಾಟ ಮತ್ತು ಶ್ವಾಸಕೋಶಗಳು">Breathing & lungs</small></span><span class="chevron">›</span></button>
+      <button class="side-item" data-system="digestive"><span class="side-icon orange">♨</span><span><b data-en="Digestive System" data-kn="ಜೀರ್ಣಾಂಗ ವ್ಯವಸ್ಥೆ">Digestive System</b><small data-en="Food & nutrients" data-kn="ಆಹಾರ ಮತ್ತು ಪೋಷಕಾಂಶಗಳು">Food & nutrients</small></span><span class="chevron">›</span></button>
+      <button class="side-item" data-system="nervous"><span class="side-icon gold">🧠</span><span><b data-en="Nervous System" data-kn="ನರಮಂಡಲ">Nervous System</b><small data-en="Brain & nerves" data-kn="ಮೆದುಳು ಮತ್ತು ನರಗಳು">Brain & nerves</small></span><span class="chevron">›</span></button>
+      <button class="side-item" data-system="endocrine"><span class="side-icon violet">✦</span><span><b data-en="Endocrine System" data-kn="ಅಂತಃಸ್ರಾವಕ ವ್ಯವಸ್ಥೆ">Endocrine System</b><small data-en="Hormones & glands" data-kn="ಹಾರ್ಮೋನುಗಳು ಮತ್ತು ಗ್ರಂಥಿಗಳು">Hormones & glands</small></span><span class="chevron">›</span></button>
+      <button class="side-item" data-system="muscular"><span class="side-icon red">💪</span><span><b data-en="Muscular System" data-kn="ಸ್ನಾಯು ವ್ಯವಸ್ಥೆ">Muscular System</b><small data-en="Movement & posture" data-kn="ಚಲನೆ ಮತ್ತು ಭಂಗಿ">Movement & posture</small></span><span class="chevron">›</span></button>
+      <button class="side-item" data-system="skeletal"><span class="side-icon bone">🦴</span><span><b data-en="Skeletal System" data-kn="ಅಸ್ಥಿಪಂಜರ ವ್ಯವಸ್ಥೆ">Skeletal System</b><small data-en="Bones & support" data-kn="ಎಲುಬುಗಳು ಮತ್ತು ಆಧಾರ">Bones & support</small></span><span class="chevron">›</span></button>
+      <button class="side-item" data-system="urinary"><span class="side-icon blue">💧</span><span><b data-en="Urinary System" data-kn="ಮೂತ್ರವಿಸರ್ಜನಾ ವ್ಯವಸ್ಥೆ">Urinary System</b><small data-en="Kidneys & waste removal" data-kn="ಮೂತ್ರಪಿಂಡ ಮತ್ತು ತ್ಯಾಜ್ಯ ವಿಸರ್ಜನೆ">Kidneys & waste removal</small></span><span class="chevron">›</span></button>
+      <button class="side-item" data-system="reproductive"><span class="side-icon violet">⚥</span><span><b data-en="Reproductive System" data-kn="ಸಂತಾನೋತ್ಪತ್ತಿ ವ್ಯವಸ್ಥೆ">Reproductive System</b><small data-en="Reproduction" data-kn="ಸಂತಾನೋತ್ಪತ್ತಿ">Reproduction</small></span><span class="chevron">›</span></button>
+      <div class="sidebar-note"><span>💡</span><p data-en="Choose any system to see its detailed diagram and explanation." data-kn="ವಿವರವಾದ ಚಿತ್ರ ಮತ್ತು ವಿವರಣೆಯನ್ನು ನೋಡಲು ಯಾವುದೇ ವ್ಯವಸ್ಥೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.">Choose any system to see its detailed diagram and explanation.</p></div>
+      <button class="side-item quiz-link" data-system="quiz"><span class="side-icon">📝</span><span><b data-en="Science Quiz" data-kn="ವಿಜ್ಞಾನ ಪ್ರಶ್ನೋತ್ತರ">Science Quiz</b><small data-en="Test your knowledge" data-kn="ನಿಮ್ಮ ಜ್ಞಾನ ಪರೀಕ್ಷಿಸಿ">Test your knowledge</small></span><span class="chevron">›</span></button>
+    </aside>
+    <main class="main-content">
+      <section class="welcome-row">
+        <div><p class="eyebrow" id="pageEyebrow">INTERACTIVE ANATOMY • INTERACTIVE SCIENCE</p><h1 id="pageTitle">Explore the <span>Human Body</span></h1><p id="pageSubtitle">Discover how your amazing body works — one system at a time.</p></div>
+        <div class="welcome-chip"><span class="live-dot"></span><span data-en="Click a system to begin" data-kn="ಪ್ರಾರಂಭಿಸಲು ಒಂದು ವ್ಯವಸ್ಥೆ ಆಯ್ಕೆಮಾಡಿ">Click a system to begin</span></div>
+      </section>
+      <section id="contentArea"></section>
+      <footer><span>✚ HUMAN BODY EXPLORER</span><span data-en="A school science demonstration · Works without internet" data-kn="ಶಾಲಾ ವಿಜ್ಞಾನ ಪ್ರದರ್ಶನ · ಇಂಟರ್ನೆಟ್ ಇಲ್ಲದೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ">A school science demonstration · Works without internet</span></footer>
+    </main>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
