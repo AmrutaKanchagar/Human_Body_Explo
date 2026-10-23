@@ -1,29 +1,32 @@
-# Human Body Explorer — Responsive Offline Science Exhibition
+# 🧍 Human Body Explorer
 
-## Run
-1. Extract `Human-Body-Explorer.zip`.
-2. Keep the `images` folder in the same place as `index.html`.
-3. Double-click `index.html` and open it in Chrome.
-4. Select a body system from the left drawer. On a phone, swipe the top navigation bar sideways to see all systems.
-5. Switch between English and Kannada using the top-right button.
+Human Body Explorer is an interactive educational website that helps students learn about the human body in a simple and fun way.
 
-## Features
-- Responsive desktop, tablet and phone layout
-- Horizontal top navigation bar listing the whole body and nine body systems (scrollable on smaller screens)
-- Click a system to display its detailed user-provided infographic and bilingual explanations
-- Whole-body overview
-- Science quiz
-- Offline local images; no external URLs or server needed
+## ✨ Features
+- 🫀 Explore different human body systems.
+- 🖼️ Learn using anatomy images and illustrations.
+- 🌐 Available in English and Kannada.
+- 📚 Simple explanations of organs and their functions.
+- 🧠 Practice questions to test your knowledge.
+- 📱 Responsive design for computers and mobile phones.
 
-## Main files
-- `index.html`: page layout
-- `style.css`: design and responsive phone layout
-- `script.js`: system information, navigation, language switch and quiz
-- `images/`: detailed anatomy posters supplied for this project
+## 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript
 
-## Exhibition introduction
-English: “My project is Human Body Explorer. The left menu contains different systems of the human body. When I click a system, its detailed diagram and explanation appear. I can explain the organs in English or Kannada. The project is built using HTML, CSS and JavaScript and runs offline.”
+## 🚀 How to Run
+1. Download or clone this repository.
+2. Open the project folder.
+3. Open `index.html` in your web browser.
+4. Explore the human body systems!
 
-Kannada: “ನನ್ನ ಪ್ರಾಜೆಕ್ಟ್‌ನ ಹೆಸರು Human Body Explorer. ಎಡಭಾಗದ ಮೆನುವಿನಲ್ಲಿ ಮಾನವ ದೇಹದ ವಿವಿಧ ವ್ಯವಸ್ಥೆಗಳಿವೆ. ಒಂದು ವ್ಯವಸ್ಥೆಯನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿದಾಗ ಅದರ ವಿವರವಾದ ಚಿತ್ರ ಮತ್ತು ವಿವರಣೆ ಕಾಣಿಸುತ್ತದೆ. ನಾನು ಅಂಗಗಳನ್ನು ಕನ್ನಡ ಅಥವಾ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ವಿವರಿಸಬಹುದು. ಈ ಪ್ರಾಜೆಕ್ಟ್ HTML, CSS ಮತ್ತು JavaScript ಬಳಸಿ ನಿರ್ಮಿಸಲಾಗಿದೆ ಮತ್ತು ಇಂಟರ್ನೆಟ್ ಇಲ್ಲದೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ.”
+## 🎯 Project Purpose
+This project was created as a school science exhibition project to make learning human anatomy easy, interactive, and enjoyable.
 
-Note: These are educational anatomy illustrations. Use them for school learning, not as medical references.
+## 👨‍🎓 Created For
+A school science exhibition.
+
+---
+
+**Human Body Explorer — Learn about your body, one system at a time!** 🧬
